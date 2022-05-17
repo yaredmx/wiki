@@ -65,3 +65,9 @@ https://stackoverflow.com/questions/42619312/switch-php-versions-on-commandline-
 
 # To enable PHP specific version
 https://askubuntu.com/questions/912638/error-module-php7-0-does-not-exist
+
+
+# Persisting docker image to public hub
+Two steps, e.g.
+    1. docker tag 6493c1e19a84 yaredmx/ubuntu_apache2:base     
+    2. docker push yaredmx/personal/ubuntu_apache2:base
