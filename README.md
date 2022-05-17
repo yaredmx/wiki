@@ -1,8 +1,8 @@
 
-# Docker LAMP
+# Personal Wiki
 Linux + Apache + MariaDB (MySQL) + PHP 7.2 on Docker Compose. Mod_rewrite enabled by default.
 
-## Instructions
+## Docker-compose Instructions
 
 Enter the following command to start your containers:
 ```bash
